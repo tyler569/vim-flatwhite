@@ -92,6 +92,7 @@ call s:hi ("Statement",		s:orange_text,		s:orange_bg,	"none")
 call s:hi ("StatusLine",	s:base7,			s:base1,		"bold")
 call s:hi ("StatusLineNC",	s:base1,			s:base3,		"none")
 call s:hi ("String",		s:green_text,		s:green_bg,		"none")
+call s:hi ("Special",       s:blue_text,        s:green_bg,     "none")
 call s:hi ("Type",			s:purple_text,		s:purple_bg,	"none")
 call s:hi ("Underlined",	"",					"",				"underline")
 call s:hi ("Visual",		"",					s:base5,		"none")
@@ -138,7 +139,7 @@ hi! link Question		ModeMsg
 hi! link Repeat			Statement
 hi! link Scrollbar		PmenuSbar
 hi! link SignColumn		FoldColumn
-hi! link Special		Normal
+" hi! link Special		Type       moved above
 hi! link SpecialChar	Special
 hi! link SpecialComment	Special
 hi! link SpecialKey		Special
