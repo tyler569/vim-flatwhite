@@ -66,7 +66,8 @@ let s:purple_bg			= "#f1ddf1"
 let s:diff_add			= "#2db448"
 let s:diff_change		= "#f2a60d"
 let s:diff_change_dark	= "#795306"
-let s:diff_delete		= "#ff1414"
+let s:diff_delete_text	= "#ffc0c0"
+let s:diff_delete		= "#ff3030"
 let s:diff_renamed		= "#52aeff"
 let s:white				= "#ffffff"
 
@@ -79,7 +80,7 @@ call s:hi ("Cursor",		"",			    	"",				"none")
 call s:hi ("CursorLine",	"",					s:base6,		"none")
 call s:hi ("DiffAdd",		"",					s:diff_add,		"none")
 call s:hi ("DiffChange",	"",					s:diff_change,	"none")
-call s:hi ("DiffDelete",	"",					s:diff_delete,	"none")
+call s:hi ("DiffDelete",	s:diff_delete_text,	s:diff_delete,	"none")
 call s:hi ("FoldColumn",	s:base3,			s:base6,		"none")
 call s:hi ("Ignore",		s:base4,			"",     		"none")
 call s:hi ("MatchParen",	s:accent,			"",     		"underline")
