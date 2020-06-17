@@ -73,18 +73,18 @@ let s:white				= "#ffffff"
 " --------------------------------------------------------------------------------------------- >>> -
 " - definitions ------------------------------------------------------------------------------- <<< -
 
-call s:hi ("Comment",		s:base3,			s:base7,		"italic")
+call s:hi ("Comment",		s:base3,			"",     		"italic")
 call s:hi ("Constant",		s:teal_text,		s:teal_bg,		"none")
-call s:hi ("Cursor",		"",				"",					"none")
+call s:hi ("Cursor",		"",			    	"",				"none")
 call s:hi ("CursorLine",	"",					s:base6,		"none")
 call s:hi ("DiffAdd",		"",					s:diff_add,		"none")
 call s:hi ("DiffChange",	"",					s:diff_change,	"none")
 call s:hi ("DiffDelete",	"",					s:diff_delete,	"none")
 call s:hi ("FoldColumn",	s:base3,			s:base6,		"none")
-call s:hi ("Ignore",		s:base4,			s:base7,		"none")
-call s:hi ("MatchParen",	s:accent,			s:base7,		"underline")
+call s:hi ("Ignore",		s:base4,			"",     		"none")
+call s:hi ("MatchParen",	s:accent,			"",     		"underline")
 call s:hi ("ModeMsg",		s:teal_text,		s:teal_bg,		"bold")
-call s:hi ("Normal",		s:base1,			s:base7,		"none")
+call s:hi ("Normal",		s:base1,			"",     		"none")
 call s:hi ("Search",		"",					s:base6,		"none")
 call s:hi ("SpellBad",		s:white,			s:diff_delete,	"none")
 call s:hi ("SpellRare",		s:diff_change_dark,	s:diff_change,	"none")
