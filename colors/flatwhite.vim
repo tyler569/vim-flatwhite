@@ -109,7 +109,7 @@ hi! link CursorIM		Cursor
 hi! link CursorLineNr	Normal
 hi! link Debug			Special
 hi! link Define			PreProc
-hi! link Delimiter		Special
+hi! link Delimiter		Normal
 hi! link DiffText		Normal
 hi! link Directory		Type
 hi! link EndOfBuffer	Ignore
